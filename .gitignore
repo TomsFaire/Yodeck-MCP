@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment / secrets — never commit these
+.env
+.env.*
+!.env.example
+
+# Local Claude Code overrides
+.claude/settings.local.json
+
+# macOS metadata
+.DS_Store
+__MACOSX/
+.AppleDouble
+._*
+
+# macOS folder icon (filename is "Icon" + carriage-return)
+Icon?
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Misc secrets
+*.pem
+*.key
+*.p12
+*.pfx
